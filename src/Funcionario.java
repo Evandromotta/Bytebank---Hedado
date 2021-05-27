@@ -1,11 +1,11 @@
-public class Funcionario {
+//não pode instancir de classe abstract
+ public abstract class Funcionario {
     private String nome;
     private String cpf;
     private double salario;
 
-    public double getBonificacao() {
-        return this.salario * 0.1;
-    }
+   // método abstract sem corpo, sem implementação
+    public abstract double getBonificacao() ;
 
     public String getNome() {
         return nome;
