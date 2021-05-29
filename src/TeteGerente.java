@@ -1,5 +1,7 @@
 public class TeteGerente {
     public static void main(String[] args) {
+        Gerente g2 = new Gerente();
+
         Gerente g1 = new Gerente();
         g1.setNome("Evandro");
         g1.setCpf("828.766.340-91");
